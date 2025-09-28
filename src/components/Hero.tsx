@@ -1,17 +1,31 @@
-import { Play, ArrowRight } from 'lucide-react';
-import profilePic from '../../images/profile-pic.jpg';
-import Hero1 from '../../images/hero1.jpg'
+import { Play, ArrowRight } from 'lucide-react'
+import profilePic from '../../images/profile-pic.jpg'
+import heroAVIF from '../../images/hero1-avif.avif'
+import heroWEBP from '../../images/hero1-webp.webp'
+import heroJPG from '../../images/hero1-jpg.jpg'
 
 const Hero = () => {
   return (
-    <section id="home" className="relative min-h-screen flex items-center justify-center overflow-hidden">
+    <section
+      id="home"
+      className="relative min-h-screen flex items-center justify-center overflow-hidden"
+    >
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
-        <img
-          src={Hero1}
-          alt="Kamakura scenic view"
-          className="w-full h-full object-cover object-center"
-        />
+        <picture>
+          {/* Browser will try AVIF first */}
+          <source srcSet={heroAVIF} type="image/avif" />
+          {/* If it can't, it will try WebP */}
+          <source srcSet={heroWEBP} type="image/webp" />
+          {/* The <img> tag is the final fallback for all browsers */}
+          <img
+            src={heroJPG}
+            alt="Kamakura scenic view"
+            className="w-full h-full object-cover object-top" // Use object-top as we discussed!
+            width="1920" // Always provide the actual width and height
+            height="1080"
+          />
+        </picture>
         <div className="absolute inset-0 bg-gradient-to-r from-black/30 via-transparent to-black/20"></div>
       </div>
 
@@ -25,32 +39,37 @@ const Hero = () => {
               className="w-16 h-16 sm:w-20 sm:h-20 rounded-full border-3 sm:border-4 border-white/30 shadow-lg"
             />
           </div>
-          
+
           <h1 className="text-2xl sm:text-4xl md:text-5xl lg:text-6xl font-serif text-white mb-3 sm:mb-4 leading-tight">
             Discover Japan
-            <span className="block text-pink-300 mt-1 sm:mt-0">Through My Eyes</span>
+            <span className="block text-pink-300 mt-1 sm:mt-0">
+              Through My Eyes
+            </span>
           </h1>
-          
+
           <p className="text-sm sm:text-lg md:text-xl text-white/90 mb-6 sm:mb-8 max-w-2xl mx-auto leading-relaxed px-2 sm:px-0">
-            Join me on daily adventures exploring the hidden gems of Kamakura, 
-            discovering authentic Japanese culture, and experiencing the beauty of everyday life in Japan.
+            Join me on daily adventures exploring the hidden gems of Kamakura,
+            discovering authentic Japanese culture, and experiencing the beauty
+            of everyday life in Japan.
           </p>
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-3 sm:gap-4">
-            <a href="https://www.youtube.com/@i.am.yurichan/videos" target="_blank" rel="noopener noreferrer">
+            <a
+              href="https://www.youtube.com/@i.am.yurichan/videos"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <button className="group bg-pink-400 hover:bg-pink-500 text-white px-6 sm:px-8 py-3 sm:py-4 rounded-full font-medium transition-all duration-300 flex items-center space-x-2 shadow-lg hover:shadow-xl hover:scale-105 touch-manipulation text-sm sm:text-base w-full sm:w-auto justify-center">
-              <Play className="h-4 w-4 sm:h-5 sm:w-5" />
-              <span>WATCH LATEST ADVENTURE</span>
-              <ArrowRight className="h-4 w-4 sm:h-5 sm:w-5 group-hover:translate-x-1 transition-transform duration-300" />
-            </button>
+                <Play className="h-4 w-4 sm:h-5 sm:w-5" />
+                <span>WATCH LATEST ADVENTURE</span>
+                <ArrowRight className="h-4 w-4 sm:h-5 sm:w-5 group-hover:translate-x-1 transition-transform duration-300" />
+              </button>
             </a>
           </div>
         </div>
       </div>
-
-      
     </section>
-  );
-};
+  )
+}
 
-export default Hero;
+export default Hero

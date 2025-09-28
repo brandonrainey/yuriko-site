@@ -1,5 +1,5 @@
 
-import { Cherry, Youtube, Instagram, Coffee, Music2 } from 'lucide-react';
+import {Youtube, Instagram, Coffee, Music2 } from 'lucide-react';
 
 const Footer = () => {
   return (
@@ -9,9 +9,9 @@ const Footer = () => {
           {/* Brand Section */}
           <div className="sm:col-span-2 lg:col-span-2">
             <div className="flex items-center space-x-2 mb-4 sm:mb-6">
-              <Cherry className="h-6 w-6 sm:h-8 sm:w-8 text-pink-400" />
+              
               <div className="text-xl sm:text-2xl font-serif text-amber-600">
-                The Life of<span className="text-pink-400"> Yurichan</span>
+               🌸 The Life of<span className="text-pink-400"> Yurichan</span>
               </div>
             </div>
             <p className="text-sm sm:text-base text-gray-600 mb-4 sm:mb-6 leading-relaxed">

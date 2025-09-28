@@ -1,5 +1,8 @@
 import { MapPin, Calendar, Heart, Camera } from 'lucide-react'
-import yurikoBanner from '../../images/yuriko-banner.jpg'
+import yurikoBannerAVIF from '../../images/yuriko-banner-avif.avif'
+import yurikoBannerWEBP from '../../images/yuriko-banner-webp.webp'
+import yurikoBannerJPG from '../../images/yuriko-banner-jpg.jpg'
+
 
 const AboutMe = () => {
   return (
@@ -11,11 +14,19 @@ const AboutMe = () => {
         {/* Banner Image Section */}
         <div className="relative overflow-hidden rounded-2xl sm:rounded-3xl mb-12 sm:mb-16 mx-2 sm:mx-0 shadow-2xl">
           <div className="relative h-64 sm:h-80 md:h-96 lg:h-[28rem]">
-            <img
-              src={yurikoBanner}
-              alt="About me - surrounded by nature"
-              className="w-full h-full object-cover object-center"
-            />
+            <picture>
+          {/* Browser will try AVIF first */}
+          <source srcSet={yurikoBannerAVIF} type="image/avif" />
+          {/* If it can't, it will try WebP */}
+          <source srcSet={yurikoBannerWEBP} type="image/webp" />
+          {/* The <img> tag is the final fallback for all browsers */}
+          <img
+            src={yurikoBannerJPG}
+            alt="Kamakura scenic view"
+            className="w-full h-full object-cover object-center" 
+          />
+        </picture>
+
             <div className="absolute inset-0 bg-gradient-to-r from-black/40 via-transparent to-black/20"></div>
 
             {/* Content Overlay */}
