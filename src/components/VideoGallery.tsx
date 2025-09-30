@@ -40,14 +40,14 @@ const VideoGallery = () => {
   return (
     <section
       id="videos"
-      className="py-20 bg-gradient-to-b from-white to-pink-50/30"
+      className="py-20 bg-gradient-to-b from-white to-violet-100/30"
     >
       <div className="max-w-7xl mx-auto px-3 sm:px-6 lg:px-8">
         <div className="text-center mb-12 sm:mb-16">
           <h2 className="text-2xl sm:text-3xl md:text-4xl font-serif text-gray-800 mb-3 sm:mb-4 px-4 sm:px-0">
             Latest Adventures
           </h2>
-          <div className="w-20 sm:w-24 h-1 bg-gradient-to-r from-pink-400 to-amber-400 mx-auto rounded-full mb-4 sm:mb-6"></div>
+          <div className="w-20 sm:w-24 h-1 bg-gradient-to-r from-violet-400 to-orange-300 mx-auto rounded-full mb-4 sm:mb-6"></div>
           <p className="text-sm sm:text-lg text-gray-600 max-w-2xl mx-auto px-4 sm:px-0 leading-relaxed">
             Explore Japan's beauty through my recent videos, from peaceful
             temple walks to exciting food discoveries.
@@ -85,7 +85,7 @@ const VideoGallery = () => {
 
               <div className="p-4 sm:p-6">
                 <a href={video.link} target="_blank" rel="noopener noreferrer">
-                  <h3 className="text-lg sm:text-xl font-semibold text-gray-800 mb-2 sm:mb-3 group-hover:text-pink-500 transition-colors duration-300 line-clamp-2">
+                  <h3 className="text-lg sm:text-xl font-semibold text-gray-800 mb-2 sm:mb-3 group-hover:text-violet-500 transition-colors duration-300 line-clamp-2">
                   {video.title}
                 </h3>
                 </a>
@@ -100,7 +100,7 @@ const VideoGallery = () => {
                 </div> */}
 
                 <div className="flex items-center justify-between">
-                  <button className="flex items-center space-x-1 sm:space-x-2 text-pink-400 hover:text-pink-500 transition-colors duration-200 touch-manipulation">
+                  <button className="flex items-center space-x-1 sm:space-x-2 text-violet-400 hover:text-violet-500 transition-colors duration-200 touch-manipulation">
                     <MessageCircle className="h-3 w-3 sm:h-4 sm:w-4" />
                     <span className="text-xs sm:text-sm font-medium">
                       Comment

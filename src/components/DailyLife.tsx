@@ -47,7 +47,7 @@ const DailyLife = () => {
           <h2 className="text-2xl sm:text-3xl md:text-4xl font-serif text-gray-800 mb-3 sm:mb-4 px-4 sm:px-0">
             Daily Life in Kamakura
           </h2>
-          <div className="w-20 sm:w-24 h-1 bg-gradient-to-r from-amber-400 to-pink-400 mx-auto rounded-full mb-4 sm:mb-6"></div>
+          <div className="w-20 sm:w-24 h-1 bg-gradient-to-r from-orange-300 to-violet-400 mx-auto rounded-full mb-4 sm:mb-6"></div>
           <p className="text-sm sm:text-lg text-gray-600 max-w-3xl mx-auto px-4 sm:px-0 leading-relaxed">
             Experience the peaceful rhythm of life in this historic coastal
             town. From morning rituals to evening walks, discover what makes

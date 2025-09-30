@@ -42,7 +42,7 @@ const Hero = () => {
 
           <h1 className="text-2xl sm:text-4xl md:text-5xl lg:text-6xl font-serif text-white mb-3 sm:mb-4 leading-tight">
             Discover Japan
-            <span className="block text-pink-300 mt-1 sm:mt-0">
+            <span className="block text-violet-300 mt-1 sm:mt-0">
               Through My Eyes
             </span>
           </h1>
@@ -59,7 +59,7 @@ const Hero = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <button className="group bg-pink-400 hover:bg-pink-500 text-white px-6 sm:px-8 py-3 sm:py-4 rounded-full font-medium transition-all duration-300 flex items-center space-x-2 shadow-lg hover:shadow-xl hover:scale-105 touch-manipulation text-sm sm:text-base w-full sm:w-auto justify-center">
+              <button className="group bg-violet-400 hover:bg-violet-500 text-white px-6 sm:px-8 py-3 sm:py-4 rounded-full font-medium transition-all duration-300 flex items-center space-x-2 shadow-lg hover:shadow-xl hover:scale-105 touch-manipulation text-sm sm:text-base w-full sm:w-auto justify-center">
                 <Play className="h-4 w-4 sm:h-5 sm:w-5" />
                 <span>WATCH LATEST ADVENTURE</span>
                 <ArrowRight className="h-4 w-4 sm:h-5 sm:w-5 group-hover:translate-x-1 transition-transform duration-300" />

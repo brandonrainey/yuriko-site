@@ -8,7 +8,7 @@ const AboutMe = () => {
   return (
     <section
       id="about"
-      className="py-16 sm:py-20 bg-gradient-to-b from-white to-pink-50/30"
+      className="py-16 sm:py-20 bg-gradient-to-b from-white to-violet-100/30"
     >
       <div className="max-w-7xl mx-auto px-3 sm:px-6 lg:px-8">
         {/* Banner Image Section */}
@@ -47,7 +47,7 @@ const AboutMe = () => {
         </div>
 
         {/* Content Section */}
-        <div className="bg-gradient-to-r from-pink-50 to-amber-50 rounded-2xl sm:rounded-3xl p-4 sm:p-8 md:p-12 mx-2 sm:mx-0">
+        <div className="bg-gradient-to-r from-violet-100 to-orange-50 rounded-2xl sm:rounded-3xl p-4 sm:p-8 md:p-12 mx-2 sm:mx-0">
           <div className="px-2 sm:px-0">
             <div className="max-w-4xl mx-auto">
               <div className="mb-6 sm:mb-8">
@@ -73,9 +73,9 @@ const AboutMe = () => {
 
               {/* Stats/Highlights */}
               <div className="grid grid-cols-2 gap-4 sm:gap-6 mb-6 sm:mb-8">
-                <div className="bg-white rounded-xl sm:rounded-2xl p-4 sm:p-6 shadow-lg border border-pink-100">
+                <div className="bg-white rounded-xl sm:rounded-2xl p-4 sm:p-6 shadow-lg border border-violet-100">
                   <div className="flex items-center space-x-2 sm:space-x-3 mb-2">
-                    <MapPin className="h-4 w-4 sm:h-5 sm:w-5 text-pink-400" />
+                    <MapPin className="h-4 w-4 sm:h-5 sm:w-5 text-violet-400" />
                     <span className="text-xs sm:text-sm font-medium text-gray-500">
                       LOCATION
                     </span>
@@ -85,9 +85,9 @@ const AboutMe = () => {
                   </p>
                 </div>
 
-                <div className="bg-white rounded-xl sm:rounded-2xl p-4 sm:p-6 shadow-lg border border-pink-100">
+                <div className="bg-white rounded-xl sm:rounded-2xl p-4 sm:p-6 shadow-lg border border-violet-100">
                   <div className="flex items-center space-x-2 sm:space-x-3 mb-2">
-                    <Calendar className="h-4 w-4 sm:h-5 sm:w-5 text-pink-400" />
+                    <Calendar className="h-4 w-4 sm:h-5 sm:w-5 text-violet-400" />
                     <span className="text-xs sm:text-sm font-medium text-gray-500">
                       STARTED
                     </span>
@@ -97,9 +97,9 @@ const AboutMe = () => {
                   </p>
                 </div>
 
-                <div className="bg-white rounded-xl sm:rounded-2xl p-4 sm:p-6 shadow-lg border border-pink-100">
+                <div className="bg-white rounded-xl sm:rounded-2xl p-4 sm:p-6 shadow-lg border border-violet-100">
                   <div className="flex items-center space-x-2 sm:space-x-3 mb-2">
-                    <Camera className="h-4 w-4 sm:h-5 sm:w-5 text-pink-400" />
+                    <Camera className="h-4 w-4 sm:h-5 sm:w-5 text-violet-400" />
                     <span className="text-xs sm:text-sm font-medium text-gray-500">
                       VIDEOS
                     </span>
@@ -109,9 +109,9 @@ const AboutMe = () => {
                   </p>
                 </div>
 
-                <div className="bg-white rounded-xl sm:rounded-2xl p-4 sm:p-6 shadow-lg border border-pink-100">
+                <div className="bg-white rounded-xl sm:rounded-2xl p-4 sm:p-6 shadow-lg border border-violet-100">
                   <div className="flex items-center space-x-2 sm:space-x-3 mb-2">
-                    <Heart className="h-4 w-4 sm:h-5 sm:w-5 text-pink-400" />
+                    <Heart className="h-4 w-4 sm:h-5 sm:w-5 text-violet-400" />
                     <span className="text-xs sm:text-sm font-medium text-gray-500">
                       SUBSCRIBERS
                     </span>
@@ -125,20 +125,20 @@ const AboutMe = () => {
               {/* Personal Touches */}
               <div className="space-y-2 sm:space-y-3">
                 <div className="flex items-start space-x-2 sm:space-x-3">
-                  <div className="w-2 h-2 bg-pink-400 rounded-full mt-2"></div>
+                  <div className="w-2 h-2 bg-violet-400 rounded-full mt-2"></div>
                   <span className="text-xs sm:text-sm text-gray-700 leading-relaxed">
                     Passionate about sustainable living and supporting local
                     businesses
                   </span>
                 </div>
                 <div className="flex items-start space-x-2 sm:space-x-3">
-                  <div className="w-2 h-2 bg-pink-400 rounded-full mt-2"></div>
+                  <div className="w-2 h-2 bg-violet-400 rounded-full mt-2"></div>
                   <span className="text-xs sm:text-sm text-gray-700 leading-relaxed">
                     Fluent in Japanese and always learning something new
                   </span>
                 </div>
                 <div className="flex items-start space-x-2 sm:space-x-3">
-                  <div className="w-2 h-2 bg-pink-400 rounded-full mt-2"></div>
+                  <div className="w-2 h-2 bg-violet-400 rounded-full mt-2"></div>
                   <span className="text-xs sm:text-sm text-gray-700 leading-relaxed">
                     Love connecting with viewers and sharing authentic
                     experiences

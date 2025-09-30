@@ -14,6 +14,7 @@ function App() {
       <VideoGallery />
       <DailyLife />
       <AboutMe />
+      
       <Footer />
     </div>
   );

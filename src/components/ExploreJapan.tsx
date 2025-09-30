@@ -20,13 +20,13 @@ const ExploreJapan = () => {
   ];
 
   return (
-    <section id="japan" className="py-20 bg-gradient-to-b from-pink-50/50 to-white">
+    <section id="japan" className="py-20 bg-gradient-to-b from-violet-100/50 to-white">
       <div className="max-w-7xl mx-auto px-3 sm:px-6 lg:px-8">
         <div className="text-center mb-12 sm:mb-16">
           <h2 className="text-2xl sm:text-3xl md:text-4xl font-serif text-gray-800 mb-3 sm:mb-4 px-4 sm:px-0">
             Explore Japan With Me
           </h2>
-          <div className="w-20 sm:w-24 h-1 bg-gradient-to-r from-pink-400 to-amber-400 mx-auto rounded-full mb-4 sm:mb-6"></div>
+          <div className="w-20 sm:w-24 h-1 bg-gradient-to-r from-violet-400 to-orange-300 mx-auto rounded-full mb-4 sm:mb-6"></div>
           <p className="text-sm sm:text-lg text-gray-600 max-w-3xl mx-auto px-4 sm:px-0 leading-relaxed">
             From bustling Tokyo streets to peaceful mountain retreats, join me as I explore the diverse beauty of Japan. 
             Each journey offers unique experiences and unforgettable memories.
@@ -61,17 +61,17 @@ const ExploreJapan = () => {
         <div className="text-center">
           <div className="inline-flex flex-col sm:flex-row items-center space-y-3 sm:space-y-0 sm:space-x-4 lg:space-x-6 bg-white rounded-2xl sm:rounded-full px-4 sm:px-6 lg:px-8 py-4 sm:py-4 shadow-lg mx-2 sm:mx-0">
             <div className="flex items-center space-x-1 sm:space-x-2">
-              <MapPin className="h-4 w-4 sm:h-5 sm:w-5 text-pink-400" />
+              <MapPin className="h-4 w-4 sm:h-5 sm:w-5 text-violet-400" />
               <span className="text-sm sm:text-base text-gray-700 font-medium">47 Prefectures</span>
             </div>
             <div className="hidden sm:block w-px h-6 bg-gray-200"></div>
             <div className="flex items-center space-x-1 sm:space-x-2">
-              <Camera className="h-4 w-4 sm:h-5 sm:w-5 text-pink-400" />
+              <Camera className="h-4 w-4 sm:h-5 sm:w-5 text-violet-400" />
               <span className="text-sm sm:text-base text-gray-700 font-medium">500+ Videos</span>
             </div>
             <div className="hidden sm:block w-px h-6 bg-gray-200"></div>
             <div className="flex items-center space-x-1 sm:space-x-2">
-              <Heart className="h-4 w-4 sm:h-5 sm:w-5 text-pink-400" />
+              <Heart className="h-4 w-4 sm:h-5 sm:w-5 text-violet-400" />
               <span className="text-sm sm:text-base text-gray-700 font-medium">1M+ Views</span>
             </div>
           </div>
