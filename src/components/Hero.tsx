@@ -36,18 +36,18 @@ const Hero = () => {
             <img
               src={profilePic}
               alt="Profile"
-              className="w-16 h-16 sm:w-20 sm:h-20 rounded-full border-3 sm:border-4 border-white/30 shadow-lg"
+              className="w-20 h-20 sm:w-28 sm:h-28 rounded-full border-3 sm:border-4 border-white/30 shadow-lg"
             />
           </div>
 
-          <h1 className="text-2xl sm:text-4xl md:text-5xl lg:text-6xl font-serif text-white mb-3 sm:mb-4 leading-tight">
+          <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-serif text-white mb-3 sm:mb-4 leading-tight">
             Discover Japan
             <span className="block text-violet-300 mt-1 sm:mt-0">
               Through My Eyes
             </span>
           </h1>
 
-          <p className="text-sm sm:text-lg md:text-xl text-white/90 mb-6 sm:mb-8 max-w-2xl mx-auto leading-relaxed px-2 sm:px-0">
+          <p className="text-md sm:text-lg md:text-xl text-white/90 mb-6 sm:mb-8 max-w-2xl mx-auto leading-relaxed px-2 sm:px-0">
             Join me on daily adventures exploring the hidden gems of Kamakura,
             discovering authentic Japanese culture, and experiencing the beauty
             of everyday life in Japan.

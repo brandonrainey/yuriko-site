@@ -111,12 +111,12 @@
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #fda4af;
+  background: #a78bfa;
   border-radius: 4px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #fb7185;
+  background: #8b5cf6;
 }
 
 /* Loading optimization */
@@ -140,4 +140,10 @@ img {
     animation-iteration-count: 1 !important;
     transition-duration: 0.01ms !important;
   }
+}
+
+.yarl__slide {
+  padding: 0 !important; /* Force padding to zero */
+  
+
 }
