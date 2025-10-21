@@ -55,19 +55,13 @@ const AboutMe = () => {
                   Living My Dream in Japan
                 </h3>
                 <p className="text-sm sm:text-base text-gray-600 mb-4 sm:mb-6 leading-relaxed">
-                  Three years ago, I made the life-changing decision to move to
-                  Kamakura, and it's been the most incredible journey. Every day
-                  brings new discoveries, from hidden temples tucked away in
-                  quiet neighborhoods to the most amazing local food spots that
-                  only the locals know about.
+                  Hello! I'm Yuriko, a videographer and traveler based in the beautiful coastal city of Kamakura, Japan.
                 </p>
                 <p className="text-sm sm:text-base text-gray-600 mb-6 sm:mb-8 leading-relaxed">
-                  Through my videos, I want to share the real Japan - not just
-                  the tourist spots, but the everyday magic that makes this
-                  country so special. Whether it's my morning coffee ritual,
-                  cycling through ancient streets, or discovering seasonal
-                  festivals, I hope to inspire others to see Japan through a
-                  different lens.
+                  On my channel, "The Life of Yurichan," I love sharing glimpses into my daily life, travels around Japan, and the authentic moments that make this country so special. My goal is to bring the "real voice" of Japan directly to you through my camera.
+                </p>
+                <p className="text-sm sm:text-base text-gray-600 mb-6 sm:mb-8 leading-relaxed">
+                  Thanks for stopping by – let's go on this journey together!
                 </p>
               </div>
 
@@ -105,7 +99,7 @@ const AboutMe = () => {
                     </span>
                   </div>
                   <p className="text-sm sm:text-base font-semibold text-gray-800">
-                    150+
+                    170+
                   </p>
                 </div>
 
@@ -117,7 +111,7 @@ const AboutMe = () => {
                     </span>
                   </div>
                   <p className="text-sm sm:text-base font-semibold text-gray-800">
-                    26K+
+                    28K+
                   </p>
                 </div>
               </div>
@@ -127,21 +121,19 @@ const AboutMe = () => {
                 <div className="flex items-start space-x-2 sm:space-x-3">
                   <div className="w-2 h-2 bg-violet-400 rounded-full mt-2"></div>
                   <span className="text-xs sm:text-sm text-gray-700 leading-relaxed">
-                    Passionate about sustainable living and supporting local
-                    businesses
+                    Passionate about capturing authentic moments through videography and photography
                   </span>
                 </div>
                 <div className="flex items-start space-x-2 sm:space-x-3">
                   <div className="w-2 h-2 bg-violet-400 rounded-full mt-2"></div>
                   <span className="text-xs sm:text-sm text-gray-700 leading-relaxed">
-                    Fluent in Japanese and always learning something new
+                    Can communicate in English and enjoys practicing with viewers!
                   </span>
                 </div>
                 <div className="flex items-start space-x-2 sm:space-x-3">
                   <div className="w-2 h-2 bg-violet-400 rounded-full mt-2"></div>
                   <span className="text-xs sm:text-sm text-gray-700 leading-relaxed">
-                    Love connecting with viewers and sharing authentic
-                    experiences
+                    Love connecting with viewers from around the world and sharing Japanese culture
                   </span>
                 </div>
               </div>

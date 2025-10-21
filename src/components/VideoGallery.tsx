@@ -134,8 +134,7 @@ const VideoGallery = () => {
           </h2>
           <div className="w-20 sm:w-24 h-1 bg-gradient-to-r from-violet-400 to-orange-300 mx-auto rounded-full mb-4 sm:mb-6"></div>
           <p className="text-sm sm:text-lg text-gray-600 max-w-2xl mx-auto px-4 sm:px-0 leading-relaxed">
-            Explore Japan's beauty through my recent videos, from peaceful
-            temple walks to exciting food discoveries.
+            Experience the beauty of Japan through my recent videos. Follow my daily life, join me on travels to scenic spots, and share in exciting food discoveries.
           </p>
         </div>
         

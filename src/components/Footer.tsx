@@ -15,8 +15,7 @@ const Footer = () => {
               </div>
             </div>
             <p className="text-sm sm:text-base text-gray-600 mb-4 sm:mb-6 leading-relaxed">
-              Join me on this beautiful journey through Japan. From daily life in Kamakura to adventures across the country, 
-              let's explore the Land of the Rising Sun together. Subscribe for weekly videos and authentic Japanese experiences.
+              Let's explore the real Japan together. From everyday moments in Kamakura to travels across the country, subscribe for weekly videos and authentic cultural insights.
             </p>
             <div className="flex items-center space-x-3 sm:space-x-4">
               <a href="https://www.youtube.com/@i.am.yurichan/featured" target="_blank" rel="noopener noreferrer" className="group bg-red-400 hover:bg-red-500 text-white p-2.5 sm:p-3 rounded-full transition-all duration-300 hover:scale-110 touch-manipulation">
@@ -39,10 +38,12 @@ const Footer = () => {
             <h3 className="text-base sm:text-lg font-semibold text-gray-800 mb-3 sm:mb-4">Quick Links</h3>
             <ul className="space-y-1.5 sm:space-y-2">
               <li><a href="#home" className="text-sm sm:text-base text-gray-600 hover:text-violet-400 transition-colors duration-200 touch-manipulation">Home</a></li>
-              <li><a href="#about" className="text-sm sm:text-base text-gray-600 hover:text-violet-400 transition-colors duration-200 touch-manipulation">About Me</a></li>
+              <li><a href="#videos" className="text-sm sm:text-base text-gray-600 hover:text-violet-400 transition-colors duration-200 touch-manipulation">Videos</a></li>
               <li><a href="#kamakura" className="text-sm sm:text-base text-gray-600 hover:text-violet-400 transition-colors duration-200 touch-manipulation">Kamakura Life</a></li>
-              <li><a href="#japan" className="text-sm sm:text-base text-gray-600 hover:text-violet-400 transition-colors duration-200 touch-manipulation">Explore Japan</a></li>
-              <li><a href="#blog" className="text-sm sm:text-base text-gray-600 hover:text-violet-400 transition-colors duration-200 touch-manipulation">Blog</a></li>
+              <li><a href="#about" className="text-sm sm:text-base text-gray-600 hover:text-violet-400 transition-colors duration-200 touch-manipulation">About Me</a></li>
+              
+              
+              
             </ul>
           </div>
 
